@@ -1,0 +1,17 @@
+@use "media-queries";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  margin: 0;
+  /* remove scrollbar but keep overflow visible */
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+  font-family: 'Alpino', sans-serif;
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+.font-display {
+  font-family: "Panchang", sans-serif;
+}
